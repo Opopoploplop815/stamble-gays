@@ -4,11 +4,12 @@ const moment = require('moment');
 const gradient = require('gradient-string');
 const chalk = require('chalk');
 const rs = require('readline-sync');
-const delay = ('6000'); // 1000 = 1 detik
+const delay = ('3000'); // 1000 = 1 detik
 
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise(resolve => setTimeout(resolve, ms));120000
+
 }
 console.log(gradient('gray', 'white')(
 `\n\n
